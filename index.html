@@ -7,6 +7,14 @@
   <title>Twitter App</title>
 </head>
 <body>
-   <h1>Welcome to twitter</h1>
+   <h1 id="heading">Welcome to twitter</h1>
+   <button onclick="changeColor()">Click me</button>
+   
+   <script>
+     const changeColor = () =>{
+        document.getElementById('heading').style.color = 'red'
+      }
+   </script>
+
 </body>
 </html>
